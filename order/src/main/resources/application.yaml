@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: order-service
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+  datasource:
+    url: ${POSTGRES_DB_URL}
+    username: ${POSTGRES_DB_USER}
+    password: ${POSTGRES_DB_PASS}
+    dbcp2:
+      driver-class-name: org.postgresql.Driver
+
+server:
+  port: 8083
+
+logging:
+  file:
+    name: logs/ecommerceOrder.log
+

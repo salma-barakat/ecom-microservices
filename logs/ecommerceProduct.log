@@ -1,0 +1,49 @@
+2026-11-11T19:36:06.090+02:00  INFO 33032 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Starting ProductApplication using Java 21.0.11 with PID 33032 (/home/salma/Desktop/ecom-microservices/product/target/classes started by salma in /home/salma/Desktop/ecom-microservices)
+2026-11-11T19:36:06.098+02:00  INFO 33032 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-11-11T19:36:06.170+02:00  INFO 33032 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-11T19:36:06.170+02:00  INFO 33032 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-11T19:36:06.859+02:00  INFO 33032 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-11T19:36:06.906+02:00  INFO 33032 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2026-11-11T19:36:07.357+02:00  INFO 33032 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-11-11T19:36:07.369+02:00  INFO 33032 --- [product-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-11T19:36:07.369+02:00  INFO 33032 --- [product-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-11T19:36:07.396+02:00  INFO 33032 --- [product-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1225 ms
+2026-11-11T19:36:07.545+02:00  INFO 33032 --- [product-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-11T19:36:07.591+02:00  INFO 33032 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-11T19:36:07.914+02:00  INFO 33032 --- [product-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-11T19:36:07.938+02:00  INFO 33032 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-11T19:36:08.221+02:00  INFO 33032 --- [product-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57744d15
+2026-11-11T19:36:08.222+02:00  INFO 33032 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-11T19:36:08.277+02:00  INFO 33032 --- [product-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/productservice]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: productservice/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-11T19:36:09.478+02:00  INFO 33032 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-11T19:36:09.537+02:00  INFO 33032 --- [product-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-11T19:36:09.619+02:00  INFO 33032 --- [product-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-11T19:36:10.764+02:00  INFO 33032 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-11-11T19:36:10.769+02:00  INFO 33032 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Started ProductApplication in 5.307 seconds (process running for 6.408)
+2026-11-11T19:37:00.030+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-11T19:37:00.030+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-11T19:37:00.031+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-11T19:37:00.053+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-2] c.e.product.service.ProductService       : Fetching all products
+2026-11-11T19:37:08.638+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-3] c.e.product.service.ProductService       : Adding new product with name: Inspiron
+2026-11-11T19:37:08.638+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-3] c.e.product.service.ProductService       : product data is: Product{id=null, name='Inspiron', description='Powerful laptop', brand='HP', category='Electronics', price=1999.99, releaseDate=2026-09-08, available=true, quantity=18, imageName='null', imageType='null', imageData=null, imageUpdatedAt=null}
+2026-11-11T19:37:27.093+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-4] c.e.product.service.ProductService       : Inside searchProducts: fetching product with keyword insp
+2026-11-11T19:37:36.917+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-5] c.e.product.service.ProductService       : Inside searchProducts: fetching product with keyword p
+2026-11-11T19:37:43.514+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-6] c.e.product.service.ProductService       : Inside searchProducts: fetching product with keyword x
+2026-11-11T19:37:49.465+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-7] c.e.product.service.ProductService       : Fetching all products
+2026-11-11T19:38:07.410+02:00  INFO 33032 --- [product-service] [http-nio-8081-exec-8] c.e.product.service.ProductService       : Fetching product with id 8b8b9ee8-3d46-4d7c-8de2-f9b4adabb9fe
+2026-11-11T19:41:53.192+02:00  INFO 33032 --- [product-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-11T19:41:53.199+02:00  INFO 33032 --- [product-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-11T19:41:53.210+02:00  INFO 33032 --- [product-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-11T19:41:53.217+02:00  INFO 33032 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-11T19:41:53.250+02:00  INFO 33032 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

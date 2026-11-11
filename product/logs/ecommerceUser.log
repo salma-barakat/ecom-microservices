@@ -1,0 +1,273 @@
+2026-10-31T15:35:49.997+02:00  INFO 4189 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Starting ProductApplication using Java 21.0.11 with PID 4189 (/home/salma/Desktop/ecom-microservices/product/target/classes started by salma in /home/salma/Desktop/ecom-microservices/product)
+2026-10-31T15:35:50.001+02:00  INFO 4189 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T15:35:50.048+02:00  INFO 4189 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-31T15:35:50.049+02:00  INFO 4189 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-31T15:35:50.591+02:00  INFO 4189 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-31T15:35:50.650+02:00  INFO 4189 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2026-10-31T15:35:51.152+02:00  INFO 4189 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-10-31T15:35:51.164+02:00  INFO 4189 --- [product-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T15:35:51.164+02:00  INFO 4189 --- [product-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-31T15:35:51.189+02:00  INFO 4189 --- [product-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1140 ms
+2026-10-31T15:35:51.334+02:00  INFO 4189 --- [product-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-31T15:35:51.387+02:00  INFO 4189 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-31T15:35:51.706+02:00  INFO 4189 --- [product-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-31T15:35:51.730+02:00  INFO 4189 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-31T15:35:52.029+02:00  INFO 4189 --- [product-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53de7c7
+2026-10-31T15:35:52.030+02:00  INFO 4189 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-31T15:35:52.125+02:00  INFO 4189 --- [product-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecommercedb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: ecommercedb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-31T15:35:52.946+02:00  INFO 4189 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-31T15:35:53.017+02:00  INFO 4189 --- [product-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T15:35:53.077+02:00  INFO 4189 --- [product-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-31T15:35:54.035+02:00  WARN 4189 --- [product-service] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0065686d-f6f9-4d9d-93b0-236c68415adb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-10-31T15:35:54.076+02:00  INFO 4189 --- [product-service] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-31T15:35:54.245+02:00  INFO 4189 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-10-31T15:35:54.251+02:00  INFO 4189 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Started ProductApplication in 5.159 seconds (process running for 6.382)
+2026-10-31T15:37:29.388+02:00  INFO 4189 --- [product-service] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T15:37:29.388+02:00  INFO 4189 --- [product-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T15:37:29.389+02:00  INFO 4189 --- [product-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-31T15:37:54.184+02:00  INFO 4189 --- [product-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-31T15:37:54.186+02:00  INFO 4189 --- [product-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-31T15:37:54.190+02:00  INFO 4189 --- [product-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T15:37:54.193+02:00  INFO 4189 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-31T15:37:54.201+02:00  INFO 4189 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-31T15:39:24.492+02:00  INFO 4821 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Starting ProductApplication using Java 21.0.11 with PID 4821 (/home/salma/Desktop/ecom-microservices/product/target/classes started by salma in /home/salma/Desktop/ecom-microservices/product)
+2026-10-31T15:39:24.494+02:00  INFO 4821 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T15:39:24.527+02:00  INFO 4821 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-31T15:39:24.527+02:00  INFO 4821 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-31T15:39:24.964+02:00  INFO 4821 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-31T15:39:24.997+02:00  INFO 4821 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-10-31T15:39:25.334+02:00  INFO 4821 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-10-31T15:39:25.345+02:00  INFO 4821 --- [product-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T15:39:25.345+02:00  INFO 4821 --- [product-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-31T15:39:25.368+02:00  INFO 4821 --- [product-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 839 ms
+2026-10-31T15:39:25.497+02:00  INFO 4821 --- [product-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-31T15:39:25.539+02:00  INFO 4821 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-31T15:39:25.852+02:00  INFO 4821 --- [product-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-31T15:39:25.875+02:00  INFO 4821 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-31T15:39:26.116+02:00  INFO 4821 --- [product-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@239f5d49
+2026-10-31T15:39:26.118+02:00  INFO 4821 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-31T15:39:26.168+02:00  INFO 4821 --- [product-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecommercedb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: ecommercedb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-31T15:39:27.000+02:00  INFO 4821 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-31T15:39:27.043+02:00  INFO 4821 --- [product-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T15:39:27.109+02:00  INFO 4821 --- [product-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-31T15:39:28.059+02:00  INFO 4821 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-10-31T15:39:28.063+02:00  INFO 4821 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Started ProductApplication in 3.962 seconds (process running for 4.619)
+2026-10-31T15:39:33.873+02:00  INFO 4821 --- [product-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T15:39:33.873+02:00  INFO 4821 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T15:39:33.874+02:00  INFO 4821 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-31T15:39:33.902+02:00  INFO 4821 --- [product-service] [http-nio-8081-exec-2] c.e.product.service.ProductService       : Fetching all products
+2026-10-31T15:40:17.498+02:00  INFO 4821 --- [product-service] [http-nio-8081-exec-3] c.e.p.exception.GlobalExceptionHandler   : Inside handleValidationErrors: getting msg Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.ecommerce.product.controller.ProductController.addProduct(com.ecommerce.product.model.Product,org.springframework.web.multipart.MultipartFile): [Field error in object 'product' on field 'name': rejected value [null]; codes [NotBlank.product.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.name,name]; arguments []; default message [name]]; default message [Product name is required]] 
+2026-10-31T15:40:17.502+02:00  WARN 4821 --- [product-service] [http-nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.ecommerce.product.controller.ProductController.addProduct(com.ecommerce.product.model.Product,org.springframework.web.multipart.MultipartFile): [Field error in object 'product' on field 'name': rejected value [null]; codes [NotBlank.product.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.name,name]; arguments []; default message [name]]; default message [Product name is required]] ]
+2026-10-31T15:40:51.826+02:00  INFO 4821 --- [product-service] [http-nio-8081-exec-5] c.e.p.exception.GlobalExceptionHandler   : Inside handleGeneralException: getting msg JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+2026-10-31T15:40:51.829+02:00  WARN 4821 --- [product-service] [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries]
+2026-10-31T15:41:56.527+02:00  INFO 4821 --- [product-service] [http-nio-8081-exec-7] c.e.p.exception.GlobalExceptionHandler   : Inside handleGeneralException: getting msg Required part 'imageFile' is not present.
+2026-10-31T15:41:56.528+02:00  WARN 4821 --- [product-service] [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'imageFile' is not present.]
+2026-10-31T15:44:41.434+02:00  INFO 4821 --- [product-service] [http-nio-8081-exec-9] c.e.p.exception.GlobalExceptionHandler   : Inside handleGeneralException: getting msg Required part 'imageFile' is not present.
+2026-10-31T15:44:41.435+02:00  WARN 4821 --- [product-service] [http-nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'imageFile' is not present.]
+2026-10-31T15:49:47.172+02:00  INFO 4821 --- [product-service] [http-nio-8081-exec-10] c.e.p.exception.GlobalExceptionHandler   : Inside handleGeneralException: getting msg Required part 'imageFile' is not present.
+2026-10-31T15:49:47.175+02:00  WARN 4821 --- [product-service] [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'imageFile' is not present.]
+2026-10-31T15:57:24.128+02:00  INFO 4821 --- [product-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-31T15:57:24.130+02:00  INFO 4821 --- [product-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-31T15:57:24.138+02:00  INFO 4821 --- [product-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T15:57:24.141+02:00  INFO 4821 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-31T15:57:24.154+02:00  INFO 4821 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-31T15:57:26.525+02:00  INFO 6639 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Starting ProductApplication using Java 21.0.11 with PID 6639 (/home/salma/Desktop/ecom-microservices/product/target/classes started by salma in /home/salma/Desktop/ecom-microservices/product)
+2026-10-31T15:57:26.529+02:00  INFO 6639 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T15:57:26.592+02:00  INFO 6639 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-31T15:57:26.592+02:00  INFO 6639 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-31T15:57:27.080+02:00  INFO 6639 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-31T15:57:27.114+02:00  INFO 6639 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-10-31T15:57:27.476+02:00  INFO 6639 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-10-31T15:57:27.487+02:00  INFO 6639 --- [product-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T15:57:27.487+02:00  INFO 6639 --- [product-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-31T15:57:27.511+02:00  INFO 6639 --- [product-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 918 ms
+2026-10-31T15:57:27.643+02:00  INFO 6639 --- [product-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-31T15:57:27.689+02:00  INFO 6639 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-31T15:57:28.001+02:00  INFO 6639 --- [product-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-31T15:57:28.023+02:00  INFO 6639 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-31T15:57:28.280+02:00  INFO 6639 --- [product-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8ccb891
+2026-10-31T15:57:28.281+02:00  INFO 6639 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-31T15:57:28.328+02:00  INFO 6639 --- [product-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecommercedb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: ecommercedb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-31T15:57:29.148+02:00  INFO 6639 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-31T15:57:29.186+02:00  INFO 6639 --- [product-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T15:57:29.243+02:00  INFO 6639 --- [product-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-31T15:57:30.118+02:00  INFO 6639 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-10-31T15:57:30.122+02:00  INFO 6639 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Started ProductApplication in 4.067 seconds (process running for 4.78)
+2026-10-31T15:57:44.413+02:00  INFO 6639 --- [product-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T15:57:44.414+02:00  INFO 6639 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T15:57:44.415+02:00  INFO 6639 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-31T15:57:44.546+02:00  INFO 6639 --- [product-service] [http-nio-8081-exec-2] c.e.p.exception.GlobalExceptionHandler   : Inside handleGeneralException: getting msg Required part 'imageFile' is not present.
+2026-10-31T15:57:44.569+02:00  WARN 6639 --- [product-service] [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'imageFile' is not present.]
+2026-10-31T15:59:41.591+02:00  INFO 6639 --- [product-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-31T15:59:41.594+02:00  INFO 6639 --- [product-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-31T15:59:41.597+02:00  INFO 6639 --- [product-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T15:59:41.600+02:00  INFO 6639 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-31T15:59:41.607+02:00  INFO 6639 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-31T15:59:44.978+02:00  INFO 6839 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Starting ProductApplication using Java 21.0.11 with PID 6839 (/home/salma/Desktop/ecom-microservices/product/target/classes started by salma in /home/salma/Desktop/ecom-microservices/product)
+2026-10-31T15:59:44.980+02:00  INFO 6839 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T15:59:45.020+02:00  INFO 6839 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-31T15:59:45.020+02:00  INFO 6839 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-31T15:59:45.457+02:00  INFO 6839 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-31T15:59:45.495+02:00  INFO 6839 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2026-10-31T15:59:45.820+02:00  INFO 6839 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-10-31T15:59:45.830+02:00  INFO 6839 --- [product-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T15:59:45.831+02:00  INFO 6839 --- [product-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-31T15:59:45.852+02:00  INFO 6839 --- [product-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 831 ms
+2026-10-31T15:59:45.981+02:00  INFO 6839 --- [product-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-31T15:59:46.012+02:00  INFO 6839 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-31T15:59:46.299+02:00  INFO 6839 --- [product-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-31T15:59:46.320+02:00  INFO 6839 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-31T15:59:46.609+02:00  INFO 6839 --- [product-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19d795b5
+2026-10-31T15:59:46.611+02:00  INFO 6839 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-31T15:59:46.690+02:00  INFO 6839 --- [product-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecommercedb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: ecommercedb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-31T15:59:47.550+02:00  INFO 6839 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-31T15:59:47.593+02:00  INFO 6839 --- [product-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T15:59:47.652+02:00  INFO 6839 --- [product-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-31T15:59:48.529+02:00  INFO 6839 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-10-31T15:59:48.534+02:00  INFO 6839 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Started ProductApplication in 3.936 seconds (process running for 4.542)
+2026-10-31T16:00:37.876+02:00  INFO 6839 --- [product-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T16:00:37.877+02:00  INFO 6839 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T16:00:37.878+02:00  INFO 6839 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-31T16:00:38.002+02:00  INFO 6839 --- [product-service] [http-nio-8081-exec-2] c.e.p.exception.GlobalExceptionHandler   : Inside handleGeneralException: getting msg Required part 'imageFile' is not present.
+2026-10-31T16:00:38.026+02:00  WARN 6839 --- [product-service] [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'imageFile' is not present.]
+2026-10-31T16:03:03.602+02:00  INFO 6839 --- [product-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-31T16:03:03.605+02:00  INFO 6839 --- [product-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-31T16:03:03.610+02:00  INFO 6839 --- [product-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T16:03:03.614+02:00  INFO 6839 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-31T16:03:03.625+02:00  INFO 6839 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-31T16:03:07.135+02:00  INFO 7158 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Starting ProductApplication using Java 21.0.11 with PID 7158 (/home/salma/Desktop/ecom-microservices/product/target/classes started by salma in /home/salma/Desktop/ecom-microservices/product)
+2026-10-31T16:03:07.137+02:00  INFO 7158 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T16:03:07.174+02:00  INFO 7158 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-31T16:03:07.174+02:00  INFO 7158 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-31T16:03:07.653+02:00  INFO 7158 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-31T16:03:07.690+02:00  INFO 7158 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
+2026-10-31T16:03:08.170+02:00  INFO 7158 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-10-31T16:03:08.181+02:00  INFO 7158 --- [product-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T16:03:08.181+02:00  INFO 7158 --- [product-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-31T16:03:08.202+02:00  INFO 7158 --- [product-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1027 ms
+2026-10-31T16:03:08.324+02:00  INFO 7158 --- [product-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-31T16:03:08.356+02:00  INFO 7158 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-31T16:03:08.694+02:00  INFO 7158 --- [product-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-31T16:03:08.715+02:00  INFO 7158 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-31T16:03:08.930+02:00  INFO 7158 --- [product-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8ccb891
+2026-10-31T16:03:08.931+02:00  INFO 7158 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-31T16:03:08.979+02:00  INFO 7158 --- [product-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecommercedb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: ecommercedb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-31T16:03:09.741+02:00  INFO 7158 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-31T16:03:09.781+02:00  INFO 7158 --- [product-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T16:03:09.834+02:00  INFO 7158 --- [product-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-31T16:03:10.737+02:00  INFO 7158 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-10-31T16:03:10.741+02:00  INFO 7158 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Started ProductApplication in 4.02 seconds (process running for 4.635)
+2026-10-31T16:03:22.166+02:00  INFO 7158 --- [product-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T16:03:22.166+02:00  INFO 7158 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T16:03:22.168+02:00  INFO 7158 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-31T16:10:46.554+02:00  INFO 7158 --- [product-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-31T16:10:46.556+02:00  INFO 7158 --- [product-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-31T16:10:46.561+02:00  INFO 7158 --- [product-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T16:10:46.565+02:00  INFO 7158 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-31T16:10:46.576+02:00  INFO 7158 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-31T16:10:50.075+02:00  INFO 7531 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Starting ProductApplication using Java 21.0.11 with PID 7531 (/home/salma/Desktop/ecom-microservices/product/target/classes started by salma in /home/salma/Desktop/ecom-microservices/product)
+2026-10-31T16:10:50.078+02:00  INFO 7531 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T16:10:50.109+02:00  INFO 7531 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-31T16:10:50.109+02:00  INFO 7531 --- [product-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-31T16:10:50.550+02:00  INFO 7531 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-31T16:10:50.583+02:00  INFO 7531 --- [product-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-10-31T16:10:50.933+02:00  INFO 7531 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-10-31T16:10:50.943+02:00  INFO 7531 --- [product-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-31T16:10:50.944+02:00  INFO 7531 --- [product-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-31T16:10:50.967+02:00  INFO 7531 --- [product-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 858 ms
+2026-10-31T16:10:51.093+02:00  INFO 7531 --- [product-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-31T16:10:51.130+02:00  INFO 7531 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-10-31T16:10:51.414+02:00  INFO 7531 --- [product-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-31T16:10:51.435+02:00  INFO 7531 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-31T16:10:51.657+02:00  INFO 7531 --- [product-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8ccb891
+2026-10-31T16:10:51.659+02:00  INFO 7531 --- [product-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-31T16:10:51.708+02:00  INFO 7531 --- [product-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecommercedb]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: ecommercedb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-31T16:10:52.470+02:00  INFO 7531 --- [product-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-31T16:10:52.510+02:00  INFO 7531 --- [product-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T16:10:52.574+02:00  INFO 7531 --- [product-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-31T16:10:53.602+02:00  INFO 7531 --- [product-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-10-31T16:10:53.606+02:00  INFO 7531 --- [product-service] [restartedMain] c.ecommerce.product.ProductApplication   : Started ProductApplication in 3.932 seconds (process running for 4.574)
+2026-10-31T16:10:59.587+02:00  INFO 7531 --- [product-service] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-31T16:10:59.588+02:00  INFO 7531 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-31T16:10:59.590+02:00  INFO 7531 --- [product-service] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-31T16:10:59.716+02:00  INFO 7531 --- [product-service] [http-nio-8081-exec-2] c.e.product.service.ProductService       : Adding new product with name: Inspiron
+2026-10-31T16:10:59.716+02:00  INFO 7531 --- [product-service] [http-nio-8081-exec-2] c.e.product.service.ProductService       : product data is: Product{id=0, name='Inspiron', description='Powerful laptop', brand='HP', category='Electronics', price=1999.99, releaseDate=2026-09-08, available=true, quantity=18, imageName='null', imageType='null', imageData=null, imageUpdatedAt=null}
+2026-10-31T16:11:09.336+02:00  INFO 7531 --- [product-service] [http-nio-8081-exec-3] c.e.product.service.ProductService       : Fetching all products
+2026-10-31T16:11:23.807+02:00  INFO 7531 --- [product-service] [http-nio-8081-exec-4] c.e.product.service.ProductService       : Fetching product with id 3
+2026-10-31T16:11:59.093+02:00  INFO 7531 --- [product-service] [http-nio-8081-exec-5] c.e.product.service.ProductService       : Inside searchProducts: fetching product with keyword inspiron
+2026-10-31T16:12:30.746+02:00  INFO 7531 --- [product-service] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-31T16:12:30.750+02:00  INFO 7531 --- [product-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-31T16:12:30.755+02:00  INFO 7531 --- [product-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-31T16:12:30.759+02:00  INFO 7531 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-31T16:12:30.769+02:00  INFO 7531 --- [product-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
